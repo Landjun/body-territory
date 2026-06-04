@@ -48,6 +48,30 @@ MODULE_NAMES = {
 
 SLUG_RE = re.compile(r"^[a-z0-9]+(?:-[a-z0-9]+)*$")
 
+AUTO_START = "<!-- AUTO-NOTES:START -->"
+AUTO_END = "<!-- AUTO-NOTES:END -->"
+
+
+def link_in_module_readme(out_dir, slug, title):
+    """在模块 README 的「自动收录笔记」区块追加新笔记链接（幂等）。"""
+    readme = os.path.join(out_dir, "README.md")
+    if not os.path.isfile(readme):
+        return False
+    with open(readme, encoding="utf-8") as f:
+        content = f.read()
+    if ("(%s.md)" % slug) in content:
+        return False  # 已有链接，跳过
+    bullet = "- [%s](%s.md)" % (title or slug, slug)
+    if AUTO_START in content and AUTO_END in content:
+        head, rest = content.split(AUTO_END, 1)
+        new_content = head.rstrip() + "\n" + bullet + "\n" + AUTO_END + rest
+    else:
+        block = "\n%s\n## 自动收录笔记\n\n%s\n%s\n" % (AUTO_START, bullet, AUTO_END)
+        new_content = content.rstrip() + "\n" + block
+    with open(readme, "w", encoding="utf-8", newline="\n") as f:
+        f.write(new_content)
+    return True
+
 
 def parse_args(argv):
     p = argparse.ArgumentParser(description="用费曼模板创建一篇新笔记")
@@ -101,6 +125,8 @@ def main(argv=None):
         f.write(content)
 
     print("已创建费曼笔记: %s" % os.path.relpath(target, ROOT).replace("\\", "/"))
+    if link_in_module_readme(out_dir, slug, args.title):
+        print("已在模块 README 追加链接: %s" % os.path.relpath(os.path.join(out_dir, "README.md"), ROOT).replace("\\", "/"))
     return 0
 
 
