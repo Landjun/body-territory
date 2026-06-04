@@ -1,0 +1,37 @@
+# scripts｜自动化脚本
+
+让这个知识库可以长期、低成本地维护。仅依赖 Python 标准库，跨平台可用。
+
+## 脚本一览
+
+| 脚本 | 作用 |
+|---|---|
+| `update_progress.py` | 扫描 `docs/` 各模块的任务（复选框 / 待补充等关键字），统计完成度，并刷新 README 中 `<!-- PROGRESS:START -->` 与 `<!-- PROGRESS:END -->` 之间的进度看板 |
+| `new_training_log.py` | 用 `templates/training-log-template.md` 在 `logs/YYYY/YYYY-MM-DD-training-log.md` 生成当天训练日志，自动建目录、不覆盖已有文件 |
+
+## 日常工作流
+
+```bash
+# 1. 开始训练前，生成今天的训练日志
+python scripts/new_training_log.py
+
+# 也可以补记某一天
+python scripts/new_training_log.py --date 2026-06-04
+
+# 2. 学习 / 复盘 / 勾掉待办后，刷新进度看板
+python scripts/update_progress.py
+
+# 3. 提交
+git add .
+git commit -m "docs: update training log and progress"
+git push
+```
+
+## 进度统计规则
+
+`update_progress.py` 逐行判断：
+
+- **任务行**：Markdown 复选框 `- [ ]` / `- [x]` / `- [X]`，或包含关键字 `TODO`、`待补充`、`待学习`、`待费曼讲解`、`待整理`、`待转化` 的行。
+- **完成行**：勾选的复选框 `- [x]`，或包含 `✅`、`status: done`、`状态：已完成`、`状态：done` 的任务行。
+
+> 想让某个任务计入"已完成"，把对应的 `- [ ]` 改成 `- [x]` 即可。
