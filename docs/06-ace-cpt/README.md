@@ -1,5 +1,9 @@
 # ACE-CPT 学习地图
 
+<!-- MODULE-PROGRESS:START -->
+> 模块进度：0 / 36 项已完成（0%）。运行 `python scripts/update_progress.py` 刷新。
+<!-- MODULE-PROGRESS:END -->
+
 > 我学习 ACE-CPT，不是为了收藏证书，而是为了把运动科学转化为自己的身体底盘系统。
 
 ## 学习模块

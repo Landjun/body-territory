@@ -1,5 +1,9 @@
 # 力量重建
 
+<!-- MODULE-PROGRESS:START -->
+> 模块进度：0 / 33 项已完成（0%）。运行 `python scripts/update_progress.py` 刷新。
+<!-- MODULE-PROGRESS:END -->
+
 > 力量重建不是跑步的附属品，而是安全跑步的地基。
 
 ## 为什么当前阶段力量比跑量更重要

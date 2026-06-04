@@ -1,5 +1,9 @@
 # 身份定位
 
+<!-- MODULE-PROGRESS:START -->
+> 模块进度：0 / 14 项已完成（0%）。运行 `python scripts/update_progress.py` 刷新。
+<!-- MODULE-PROGRESS:END -->
+
 在讲任何训练方法之前，先讲身份。因为方法会变，身份不变。
 
 ## 为什么这个仓库要先讲身份

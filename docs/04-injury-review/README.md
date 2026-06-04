@@ -1,5 +1,9 @@
 # 伤病复盘
 
+<!-- MODULE-PROGRESS:START -->
+> 模块进度：0 / 30 项已完成（0%）。运行 `python scripts/update_progress.py` 刷新。
+<!-- MODULE-PROGRESS:END -->
+
 > 安全跑者不逃避疼痛，也不崇拜疼痛。
 > 安全跑者把疼痛当作系统反馈。
 

@@ -1,5 +1,9 @@
 # 安全跑者品牌
 
+<!-- MODULE-PROGRESS:START -->
+> 模块进度：0 / 5 项已完成（0%）。运行 `python scripts/update_progress.py` 刷新。
+<!-- MODULE-PROGRESS:END -->
+
 这个模块是个人品牌素材库，但它不是商业包装。
 
 ## 定位
@@ -22,6 +26,12 @@
 - 把复盘做成作品；
 - 把身体做成系统；
 - 不再只靠苦撑和证明驱动自己。
+
+## 金句卡片
+
+![安全跑者金句卡片](safe-runner-quote-card.svg)
+
+> 可直接用作公众号/社交平台配图。需要其他金句版本时，改 [safe-runner-quote-card.svg](safe-runner-quote-card.svg) 里的文字即可（SVG 是纯文本，便于版本管理）。
 
 ## 本模块文件
 

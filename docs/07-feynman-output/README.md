@@ -1,5 +1,9 @@
 # 费曼输出流程
 
+<!-- MODULE-PROGRESS:START -->
+> 模块进度：0 / 16 项已完成（0%）。运行 `python scripts/update_progress.py` 刷新。
+<!-- MODULE-PROGRESS:END -->
+
 1. 直接对着标题开始讲；
 2. 讲不清楚的地方标记为卡点；
 3. 回到资料补学；

@@ -1,5 +1,9 @@
 # 训练日志
 
+<!-- MODULE-PROGRESS:START -->
+> 模块进度：0 / 19 项已完成（0%）。运行 `python scripts/update_progress.py` 刷新。
+<!-- MODULE-PROGRESS:END -->
+
 > 没有记录，训练就很难变成系统。
 > 没有复盘，疼痛就只会重复出现。
 
