@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="360" viewBox="0 0 1280 360" role="img" aria-label="body-territory 横幅">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0b1220"/>
+      <stop offset="0.55" stop-color="#0f172a"/>
+      <stop offset="1" stop-color="#1e293b"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#38bdf8"/>
+      <stop offset="1" stop-color="#22d3ee"/>
+    </linearGradient>
+    <style>
+      .zh { font-family: "PingFang SC","Microsoft YaHei","Noto Sans SC","Hiragino Sans GB",sans-serif; }
+      .mono { font-family: "SFMono-Regular","Consolas","Menlo",monospace; }
+    </style>
+  </defs>
+
+  <rect width="1280" height="360" fill="url(#bg)"/>
+  <rect x="0" y="0" width="1280" height="6" fill="url(#accent)"/>
+  <rect x="0" y="0" width="14" height="360" fill="url(#accent)"/>
+
+  <text x="80" y="120" class="mono" fill="#f8fafc" font-size="62" font-weight="800">body-territory</text>
+  <text x="82" y="172" class="zh" fill="#38bdf8" font-size="34" font-weight="700">安全跑者的身体底盘知识库</text>
+
+  <line x1="82" y1="205" x2="560" y2="205" stroke="#334155" stroke-width="2"/>
+
+  <text x="80" y="252" class="zh" fill="#e2e8f0" font-size="30" font-weight="600">网络安全是我要成为谁，跑步是我用什么身体去成为那个人。</text>
+
+  <text x="80" y="312" class="zh" fill="#94a3b8" font-size="22">费曼学习 · 跑步安全 · 力量重建 · 伤病复盘 · ACE-CPT · 训练日志 · 自动化</text>
+
+  <text x="1200" y="320" text-anchor="end" class="mono" fill="#475569" font-size="18">github.com/Landjun/body-territory</text>
+</svg>

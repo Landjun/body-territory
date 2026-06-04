@@ -1,8 +1,11 @@
 # body-territory｜安全跑者的身体底盘知识库
 
+![body-territory 横幅](docs/assets/banner.svg)
+
 > 用费曼学习法，把跑步安全、力量重建、伤病复盘、ACE-CPT 学习与长期训练记录，沉淀成一个可复用、可追踪、可长期进化的身体系统。
 
 [![学习进度](https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2FLandjun%2Fbody-territory%2Fmain%2F.github%2Fprogress.json)](#学习进度看板)
+[![连续训练](https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2FLandjun%2Fbody-territory%2Fmain%2F.github%2Fstreak.json)](docs/05-training-log/README.md)
 [![link-check](https://github.com/Landjun/body-territory/actions/workflows/link-check.yml/badge.svg)](https://github.com/Landjun/body-territory/actions/workflows/link-check.yml)
 [![progress-check](https://github.com/Landjun/body-territory/actions/workflows/progress-check.yml/badge.svg)](https://github.com/Landjun/body-territory/actions/workflows/progress-check.yml)
 
@@ -59,6 +62,7 @@ territory 是领地、边界和可控范围。
 
 > 新人请从这里开始:[7 天跑步基座启动计划](docs/00-start-here.md)。
 > 怎么用这套系统(脚本/进度/笔记/卡片):[使用指南](docs/HOW-TO-USE.md)。
+> 这个项目展示了我什么能力:[作品说明](docs/PORTFOLIO.md)。
 > 资源导航见 [docs/09-resources](docs/09-resources/README.md)。
 
 ## 学习进度看板
