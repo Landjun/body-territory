@@ -28,6 +28,7 @@ update_progress.py — 统计 docs/ 下各模块的任务完成情况，刷新 R
 
 import argparse
 import io
+import json
 import os
 import re
 import sys
@@ -42,6 +43,8 @@ except (AttributeError, ValueError):
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 DOCS = os.path.join(ROOT, "docs")
 README = os.path.join(ROOT, "README.md")
+# shields.io endpoint 徽章数据，README 顶部徽章从仓库 raw URL 动态读取
+BADGE_JSON = os.path.join(ROOT, ".github", "progress.json")
 
 START_MARK = "<!-- PROGRESS:START -->"
 END_MARK = "<!-- PROGRESS:END -->"
@@ -137,6 +140,33 @@ def update_module_readme(dirpath, total, done):
             f.write(new_content)
 
 
+def badge_color(pct):
+    """按完成度选择徽章颜色。"""
+    if pct >= 100:
+        return "brightgreen"
+    if pct >= 67:
+        return "green"
+    if pct >= 34:
+        return "yellow"
+    if pct > 0:
+        return "orange"
+    return "lightgrey"
+
+
+def write_badge(total, done, pct):
+    """写出 shields.io endpoint 徽章 JSON。"""
+    data = {
+        "schemaVersion": 1,
+        "label": "学习进度",
+        "message": "%d%% · %d/%d" % (pct, done, total),
+        "color": badge_color(pct),
+    }
+    os.makedirs(os.path.dirname(BADGE_JSON), exist_ok=True)
+    with open(BADGE_JSON, "w", encoding="utf-8", newline="\n") as f:
+        json.dump(data, f, ensure_ascii=False)
+        f.write("\n")
+
+
 def build_table(stats):
     """根据统计结果生成 Markdown 表格字符串。"""
     rows = ["| 模块 | 已完成 | 总任务 | 进度 |", "|---|---:|---:|---:|"]
@@ -193,6 +223,8 @@ def main(argv=None):
     if new_content != content:
         with open(README, "w", encoding="utf-8", newline="\n") as f:
             f.write(new_content)
+
+    write_badge(total, done, pct)
 
     print("Updated README progress table.")
     print("Total tasks: %d" % total)

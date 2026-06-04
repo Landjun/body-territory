@@ -6,8 +6,10 @@
 
 | 脚本 | 作用 |
 |---|---|
-| `update_progress.py` | 扫描 `docs/` 各模块的任务（复选框 / 待补充等关键字），统计完成度，并刷新 README 中 `<!-- PROGRESS:START -->` 与 `<!-- PROGRESS:END -->` 之间的进度看板 |
+| `update_progress.py` | 扫描 `docs/` 各模块的任务（复选框 / 待补充等关键字），统计完成度，刷新 README 看板、各模块 README 顶部小计，并写出 `.github/progress.json`（README 顶部 shields 徽章读取它）。`--detail` 可按文件列出未完成项 |
 | `new_training_log.py` | 用 `templates/training-log-template.md` 在 `logs/YYYY/YYYY-MM-DD-training-log.md` 生成当天训练日志，自动建目录、不覆盖已有文件 |
+| `new_feynman_note.py` | 用 `templates/feynman-note-template.md` 创建一篇费曼笔记，回填主题/模块/日期，落到 `docs/<module>/<slug>.md` |
+| `gen_quote_cards.py` | 根据金句列表批量生成安全跑者金句卡片 SVG 到 `docs/08-safe-runner-brand/cards/` |
 
 ## 日常工作流
 
