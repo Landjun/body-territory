@@ -58,6 +58,7 @@ territory 是领地、边界和可控范围。
 | 自动化 | 让知识库可维护 | 进度统计、日志生成、CI 检查 | [scripts/](scripts/README.md) |
 
 > 新人请从这里开始:[7 天跑步基座启动计划](docs/00-start-here.md)。
+> 怎么用这套系统(脚本/进度/笔记/卡片):[使用指南](docs/HOW-TO-USE.md)。
 > 资源导航见 [docs/09-resources](docs/09-resources/README.md)。
 
 ## 学习进度看板
@@ -142,11 +143,13 @@ territory 是领地、边界和可控范围。
 ## 自动化
 
 ```bash
-python scripts/update_progress.py        # 统计进度并刷新 README 看板
-python scripts/new_training_log.py       # 用模板生成今天的训练日志
+python scripts/update_progress.py        # 统计进度，刷新看板/小计/徽章
+python scripts/new_training_log.py       # 生成今天的训练日志
+python scripts/new_feynman_note.py --slug lactate-threshold --title "乳酸阈" --module 06-ace-cpt   # 建费曼笔记
+python scripts/gen_quote_cards.py        # 批量生成金句卡片
 ```
 
-CI 会在每次推送时检查 Markdown 断链与进度看板是否最新。
+CI 会在每次推送时检查 Markdown 断链与进度看板是否最新。完整用法见 **[使用指南](docs/HOW-TO-USE.md)**。
 
 ## 作品集价值
 
