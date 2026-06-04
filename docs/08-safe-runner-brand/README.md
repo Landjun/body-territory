@@ -31,7 +31,15 @@
 
 ![安全跑者金句卡片](safe-runner-quote-card.svg)
 
-> 可直接用作公众号/社交平台配图。需要其他金句版本时，改 [safe-runner-quote-card.svg](safe-runner-quote-card.svg) 里的文字即可（SVG 是纯文本，便于版本管理）。
+> 可直接用作公众号/社交平台配图。SVG 是纯文本，便于版本管理。
+
+一组金句卡片由 `python scripts/gen_quote_cards.py` 批量生成到 [cards/](cards/)，想增减金句改脚本里的 `QUOTES` 列表再运行即可：
+
+| | |
+|---|---|
+| ![](cards/card-01.svg) | ![](cards/card-02.svg) |
+| ![](cards/card-03.svg) | ![](cards/card-04.svg) |
+| ![](cards/card-05.svg) | ![](cards/card-06.svg) |
 
 ## 本模块文件
 
