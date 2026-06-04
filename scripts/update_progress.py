@@ -27,6 +27,7 @@ update_progress.py — 统计 docs/ 下各模块的任务完成情况，刷新 R
 """
 
 import argparse
+import datetime
 import io
 import json
 import os
@@ -45,6 +46,9 @@ DOCS = os.path.join(ROOT, "docs")
 README = os.path.join(ROOT, "README.md")
 # shields.io endpoint 徽章数据，README 顶部徽章从仓库 raw URL 动态读取
 BADGE_JSON = os.path.join(ROOT, ".github", "progress.json")
+STREAK_JSON = os.path.join(ROOT, ".github", "streak.json")
+LOGS = os.path.join(ROOT, "logs")
+LOG_DATE_RE = re.compile(r"(\d{4})-(\d{2})-(\d{2})-training-log\.md$")
 
 START_MARK = "<!-- PROGRESS:START -->"
 END_MARK = "<!-- PROGRESS:END -->"
@@ -167,6 +171,69 @@ def write_badge(total, done, pct):
         f.write("\n")
 
 
+def collect_log_dates():
+    """收集 logs/ 下所有训练日志对应的日期。"""
+    dates = set()
+    if not os.path.isdir(LOGS):
+        return dates
+    for root, _dirs, files in os.walk(LOGS):
+        for name in files:
+            m = LOG_DATE_RE.search(name)
+            if m:
+                try:
+                    dates.add(datetime.date(int(m.group(1)), int(m.group(2)), int(m.group(3))))
+                except ValueError:
+                    pass
+    return dates
+
+
+def current_streak(dates, today=None):
+    """当前连续训练天数：从最近一条日志往回数连续的天。
+
+    若最近一条日志早于"昨天"，视为已断档，返回 0。
+    """
+    if not dates:
+        return 0
+    today = today or datetime.date.today()
+    last = max(dates)
+    if (today - last).days > 1:
+        return 0
+    streak = 0
+    day = last
+    while day in dates:
+        streak += 1
+        day -= datetime.timedelta(days=1)
+    return streak
+
+
+def streak_color(days):
+    if days >= 30:
+        return "brightgreen"
+    if days >= 7:
+        return "green"
+    if days >= 1:
+        return "yellowgreen"
+    return "lightgrey"
+
+
+def write_streak_badge():
+    """写出连续训练天数徽章 JSON，返回 (连续天数, 累计天数)。"""
+    dates = collect_log_dates()
+    streak = current_streak(dates)
+    total_days = len(dates)
+    data = {
+        "schemaVersion": 1,
+        "label": "连续训练",
+        "message": "%d 天 · 累计 %d 天" % (streak, total_days),
+        "color": streak_color(streak),
+    }
+    os.makedirs(os.path.dirname(STREAK_JSON), exist_ok=True)
+    with open(STREAK_JSON, "w", encoding="utf-8", newline="\n") as f:
+        json.dump(data, f, ensure_ascii=False)
+        f.write("\n")
+    return streak, total_days
+
+
 def build_table(stats):
     """根据统计结果生成 Markdown 表格字符串。"""
     rows = ["| 模块 | 已完成 | 总任务 | 进度 |", "|---|---:|---:|---:|"]
@@ -225,11 +292,13 @@ def main(argv=None):
             f.write(new_content)
 
     write_badge(total, done, pct)
+    streak, total_days = write_streak_badge()
 
     print("Updated README progress table.")
     print("Total tasks: %d" % total)
     print("Done tasks: %d" % done)
     print("Progress: %d%%" % pct)
+    print("Training streak: %d days (total %d days logged)" % (streak, total_days))
 
     if args.detail:
         print("\n未完成明细：")
