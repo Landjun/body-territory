@@ -1,0 +1,47 @@
+name: 伤病复盘
+description: 把疼痛当作系统反馈，复盘诱因与降级策略（非医疗诊断）
+title: "[复盘] "
+labels: ["injury-review"]
+body:
+  - type: markdown
+    attributes:
+      value: "这是个人训练复盘，不是医学诊断。若出现红旗信号请咨询专业人士。"
+  - type: input
+    id: location
+    attributes:
+      label: 疼痛位置
+      placeholder: 例如 右脚踝 / 小腿 / 足底
+    validations:
+      required: true
+  - type: dropdown
+    id: pain
+    attributes:
+      label: 疼痛评分 0-10
+      options: ["0","1","2","3","4","5","6","7","8","9","10"]
+    validations:
+      required: true
+  - type: dropdown
+    id: gait
+    attributes:
+      label: 是否影响步态
+      options: ["否","有一点","明显影响"]
+  - type: textarea
+    id: last7days
+    attributes:
+      label: 最近 7 天训练回顾
+      placeholder: 跑步 / 快走 / 力量 / 拉伸 / 睡眠 / 压力
+  - type: textarea
+    id: causes
+    attributes:
+      label: 可能诱因
+      placeholder: 突然加量 / 强度过高 / 睡眠不足 / 热身不足 / 力量不足 / 小腿紧 / 鞋或跑步机问题 / 情绪硬撑
+  - type: textarea
+    id: downgrade
+    attributes:
+      label: 今日降级策略
+      placeholder: 不跑步 / 快走 / 轻力量 / 拉伸 / 休息
+  - type: dropdown
+    id: pro
+    attributes:
+      label: 是否需要专业帮助
+      options: ["暂不需要，继续观察","考虑咨询","需要尽快咨询"]

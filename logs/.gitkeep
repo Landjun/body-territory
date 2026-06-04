@@ -1,0 +1,2 @@
+# 此目录保存由 scripts/new_training_log.py 生成的每日训练日志
+# 实际日志按 logs/YYYY/YYYY-MM-DD-training-log.md 组织

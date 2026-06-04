@@ -1,5 +1,9 @@
 # 统一文本文件行尾为 LF,避免 Windows/别的平台来回切换产生噪音
 * text=auto eol=lf
+*.md text eol=lf
+*.py text eol=lf
+*.yml text eol=lf
+*.yaml text eol=lf
 
 # 二进制类型显式标注(以后若加入图片等)
 *.png binary

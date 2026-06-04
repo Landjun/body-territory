@@ -1,0 +1,51 @@
+name: 训练日志
+description: 记录一次训练 / 快走 / 力量 / 康复，形成长期身体反馈
+title: "[训练] YYYY-MM-DD "
+labels: ["training-log"]
+body:
+  - type: input
+    id: date
+    attributes:
+      label: 日期
+      placeholder: 2026-06-04
+    validations:
+      required: true
+  - type: input
+    id: sleep
+    attributes:
+      label: 睡眠
+      placeholder: 例如 7 小时 / 一般 / 差
+  - type: dropdown
+    id: energy
+    attributes:
+      label: 今日能量 1-10
+      options: ["1","2","3","4","5","6","7","8","9","10"]
+  - type: input
+    id: pain
+    attributes:
+      label: 疼痛评分 0-10（含位置）
+      placeholder: 例如 右脚踝 2 分
+  - type: dropdown
+    id: level
+    attributes:
+      label: 今日训练等级
+      options: ["A 完整训练","B 基础训练","C 低能量维护","D 疼痛降级","E 5分钟保底"]
+    validations:
+      required: true
+  - type: textarea
+    id: content
+    attributes:
+      label: 训练内容
+      placeholder: 热身 / 跑步或快走 / 力量 / 拉伸 / 总时长
+    validations:
+      required: true
+  - type: textarea
+    id: next-day
+    attributes:
+      label: 次日反馈
+      placeholder: 疼痛是否加重 / 精神状态 / 是否需要降级
+  - type: input
+    id: oneline
+    attributes:
+      label: 一句话复盘
+      placeholder: 今天这次训练对长期身体底盘的价值是……

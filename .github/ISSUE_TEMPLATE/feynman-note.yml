@@ -1,0 +1,52 @@
+name: 费曼笔记
+description: 用费曼学习法记录一个知识点：先讲，暴露卡点，再补学
+title: "[费曼] "
+labels: ["feynman-note"]
+body:
+  - type: input
+    id: topic
+    attributes:
+      label: 学习主题
+      placeholder: 例如 乳酸阈 / 臀中肌的作用
+    validations:
+      required: true
+  - type: dropdown
+    id: module
+    attributes:
+      label: 所属模块
+      options:
+        - 身份定位
+        - 跑步安全
+        - 力量重建
+        - 伤病复盘
+        - 训练日志
+        - ACE-CPT
+        - 费曼输出
+        - 安全跑者品牌
+  - type: input
+    id: oneline
+    attributes:
+      label: 一句话解释
+      placeholder: 用一句话讲清楚这个概念
+    validations:
+      required: true
+  - type: textarea
+    id: three-points
+    attributes:
+      label: 三点展开
+      placeholder: "1.\n2.\n3."
+  - type: textarea
+    id: stuck
+    attributes:
+      label: 卡点
+      placeholder: 讲到哪里卡住了？
+  - type: textarea
+    id: next
+    attributes:
+      label: 下一步补学
+      placeholder: 需要回到哪份资料补学？
+  - type: dropdown
+    id: recorded
+    attributes:
+      label: 是否已录音讲解
+      options: ["未","已讲 3 分钟","已讲 10 分钟"]
