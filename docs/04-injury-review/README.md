@@ -1,7 +1,7 @@
 # 伤病复盘
 
 <!-- MODULE-PROGRESS:START -->
-> 模块进度：0 / 30 项已完成（0%）。运行 `python scripts/update_progress.py` 刷新。
+> 模块进度：0 / 33 项已完成（0%）。运行 `python scripts/update_progress.py` 刷新。
 <!-- MODULE-PROGRESS:END -->
 
 > 安全跑者不逃避疼痛，也不崇拜疼痛。
@@ -29,6 +29,7 @@
 
 ## 本模块文件
 
+- [疼痛诱因排查逻辑树](cause-finding-decision-tree.md) ← 不知从哪查起时,从这棵树开始
 - [伤病日志模板](injury-log-template.md)
 - [右脚踝不适复盘](ankle-pain-review.md)
 - [小腿紧张复盘](calf-tightness-review.md)

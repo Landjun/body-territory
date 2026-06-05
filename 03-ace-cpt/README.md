@@ -24,3 +24,12 @@
 > 状态图例:🔲 未学 · 📖 学习中 · ✅ 能讲清楚
 
 > ⚠️ 本模块为个人备考学习笔记,非官方教材,亦非专业训练或医疗建议。
+
+## 与 docs 操作系统的关系
+
+本模块(九大知识域)与 docs/06-ace-cpt(学习地图与精炼卡片)互补:这里是按考纲铺开的九域笔记,docs 那边是串成主线的学习地图与训练落地。
+
+- [运动科学学习地图](../docs/06-ace-cpt/exercise-science-map.md)、[训练适应](../docs/06-ace-cpt/training-adaptation.md)、[风险筛查意识](../docs/06-ace-cpt/risk-awareness.md)
+- 落地:[力量重建](../docs/03-strength-rebuild/README.md)、[跑步安全决策系统](../docs/02-running-safety/README.md)
+
+> 返回 [仓库首页](../README.md) · [ACE-CPT 备考进度追踪表](exam-progress-tracker.md)

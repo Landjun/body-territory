@@ -18,3 +18,13 @@
 | 🔲 | 疲劳机制 | [fatigue-mechanisms.md](fatigue-mechanisms.md) |
 
 > 状态图例:🔲 未学 · 📖 学习中 · ✅ 能讲清楚
+
+## 与 docs 操作系统的关系
+
+本模块是"科学后台"——这里的解剖生理原理,支撑着 docs 里的实操决策:
+
+- 能量系统/疲劳 → [轻松跑原则](../docs/02-running-safety/easy-run-principles.md)、[A-E 训练等级](../docs/02-running-safety/training-level-a-e.md)
+- 超量恢复 → [降级规则](../docs/04-injury-review/downgrade-rules.md)、[训练适应](../docs/06-ace-cpt/training-adaptation.md)
+- 神经肌肉/运动单位 → [力量重建](../docs/03-strength-rebuild/README.md)
+
+> 返回 [仓库首页](../README.md) · [ACE-CPT 学习地图](../docs/06-ace-cpt/exercise-science-map.md)

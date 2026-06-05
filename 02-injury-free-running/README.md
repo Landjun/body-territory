@@ -38,3 +38,13 @@
 | 🔲 | 全马备战 | [periodization/race-prep-full-marathon.md](periodization/race-prep-full-marathon.md) |
 
 > 状态图例:🔲 未学 · 📖 学习中 · ✅ 能讲清楚
+
+## 与 docs 操作系统的关系
+
+本模块是"跑步专项原理库",和 docs 的每日决策系统互为表里:
+
+- 损伤原理/负荷管理 → [疼痛分级](../docs/02-running-safety/pain-scale.md)、[降级规则](../docs/04-injury-review/downgrade-rules.md)、[诱因排查树](../docs/04-injury-review/cause-finding-decision-tree.md)
+- 力量与稳定 → [力量重建](../docs/03-strength-rebuild/README.md)
+- 训练课/周期化 → [A-E 训练等级](../docs/02-running-safety/training-level-a-e.md)、[训练计划设计](../docs/06-ace-cpt/program-design.md)
+
+> 返回 [仓库首页](../README.md)
