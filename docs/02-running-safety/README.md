@@ -1,7 +1,7 @@
 # 跑步安全
 
 <!-- MODULE-PROGRESS:START -->
-> 模块进度：0 / 34 项已完成（0%）。运行 `python scripts/update_progress.py` 刷新。
+> 模块进度：0 / 30 项已完成（0%）。运行 `python scripts/update_progress.py` 刷新。
 <!-- MODULE-PROGRESS:END -->
 
 跑步安全不是保守，而是为了跑得更久。这一模块是一套"今天能不能跑、怎么跑、跑多少"的决策系统，不是一句口号。
