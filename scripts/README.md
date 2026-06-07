@@ -10,6 +10,8 @@
 | `new_training_log.py` | 用 `templates/training-log-template.md` 在 `logs/YYYY/YYYY-MM-DD-training-log.md` 生成当天训练日志，自动建目录、不覆盖已有文件 |
 | `new_feynman_note.py` | 用 `templates/feynman-note-template.md` 创建一篇费曼笔记，回填主题/模块/日期，落到 `docs/<module>/<slug>.md` |
 | `gen_quote_cards.py` | 根据金句列表批量生成安全跑者金句卡片 SVG 到 `docs/08-safe-runner-brand/cards/` |
+| `check_links.py` | 扫描全仓库 Markdown 的内部相对链接，列出断链并以非零码退出（提交前本地自查，与 CI 的 lychee 互补） |
+| `check_required_sections.py` | 软性检查 `docs/` 内容页是否含「一句话讲清/本页目的」与（涉伤病/营养时）免责声明；默认只报告，`--strict` 才报错 |
 
 ## 日常工作流
 
@@ -23,7 +25,11 @@ python scripts/new_training_log.py --date 2026-06-04
 # 2. 学习 / 复盘 / 勾掉待办后，刷新进度看板
 python scripts/update_progress.py
 
-# 3. 提交
+# 3. 提交前自查链接与小节
+python scripts/check_links.py
+python scripts/check_required_sections.py
+
+# 4. 提交
 git add .
 git commit -m "docs: update training log and progress"
 git push
