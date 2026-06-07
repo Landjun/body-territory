@@ -29,6 +29,7 @@
 
 ## 本模块文件
 
+- [把伤病当安全事件响应](injury-as-incident-response.md) ← 复盘的总框架(止损→定位→复盘→加固→预防)
 - [疼痛诱因排查逻辑树](cause-finding-decision-tree.md) ← 不知从哪查起时,从这棵树开始
 - [伤病日志模板](injury-log-template.md)
 - [右脚踝不适复盘](ankle-pain-review.md)

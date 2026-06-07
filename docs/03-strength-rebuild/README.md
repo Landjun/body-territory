@@ -6,6 +6,8 @@
 
 > 力量重建不是跑步的附属品，而是安全跑步的地基。
 
+> 📐 先读这篇,理解力量在系统里的定位:[力量重建是基础设施加固](strength-as-infrastructure.md)。
+
 ## 为什么当前阶段力量比跑量更重要
 
 - 当前阶段力量训练比盲目跑量更重要；
@@ -25,6 +27,7 @@
 
 ## 部位与动作库
 
+- [力量重建是基础设施加固](strength-as-infrastructure.md) ← 概念入口
 - [臀部](glutes.md)
 - [小腿与跟腱](calves-and-achilles.md)
 - [踝关节稳定](ankle-stability.md)

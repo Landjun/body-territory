@@ -15,6 +15,8 @@
 - 次日反馈比当下硬撑重要；
 - 安全跑步是一个决策系统，不是一句口号。
 
+> 🧭 **每天只看一页就够**:[今天到底能不能跑(决策总入口)](can-i-run-today.md) —— 把下面所有步骤合成一条五分钟决策流。
+
 ## 决策顺序
 
 1. 先[跑前 5 问](pre-run-checklist.md)做自检；
@@ -26,9 +28,11 @@
 
 ## 本模块文件
 
+- [今天到底能不能跑(决策总入口)](can-i-run-today.md) ← 每日先看这个
 - [跑前 5 问](pre-run-checklist.md)
 - [疼痛分级](pain-scale.md)
 - [A-E 训练等级](training-level-a-e.md)
+- [最低训练标准(不断档的底线)](minimum-training-standard.md)
 - [热身与冷身](warm-up-and-cool-down.md)
 - [轻松跑原则](easy-run-principles.md)
 - [跑步机安全](treadmill-safety.md)
