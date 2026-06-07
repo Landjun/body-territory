@@ -33,6 +33,12 @@
 
 ## 本模块文件
 
+**总览(先看这三篇)**
+- [安全跑者操作系统(总系统)](safe-runner-operating-system.md) ← 整个仓库八大子系统的总览图
+- [安全跑者宣言](safe-runner-manifesto.md) ← 我为什么训练、我的信条
+- [身体作为安全系统](body-as-security-system.md) ← 用安全工程的语言运维身体
+
+**展开**
 - [安全跑者：用身体的纪律映照安全的纪律](safe-runner.md)
 - [body-territory：重新认识身体的边界](body-territory.md)
 - [网络安全是目的，身体是基础设施](body-supports-cybersecurity.md)

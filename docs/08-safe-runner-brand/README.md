@@ -43,6 +43,12 @@
 
 ## 本模块文件
 
+**内容策略**
+- [安全跑者的内容定位](content-positioning.md) ← 写什么、不写什么、10 个选题方向
+- [不卖惨、不鸡血的写作口径](no-fake-inspiration.md) ← 七条护栏 + 反例→正例
+- [跑步与安全的类比库](security-running-analogies.md) ← 把身体↔安全自然连接
+
+**素材与模板**
 - [内容卡片模板](content-card-template.md)
 - [每周公开记录](weekly-public-note.md)
 - [安全跑者金句](safe-runner-quotes.md)
