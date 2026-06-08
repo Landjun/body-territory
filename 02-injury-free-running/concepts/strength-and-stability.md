@@ -39,6 +39,18 @@
 - 把力量训练当"抢跑步时间"——它是跑步的地基。
 - 只练大肌肉,忽略小的稳定肌(臀中肌、踝周)——稳定常是短板。
 
+## 对安全跑者的意义
+
+力量稳定是"承受力"的主要来源:它让每一步落地稳、力不泄漏,减伤又提速。
+
+## 和网络安全的类比
+
+像**在不稳的平台上跑服务**:底盘不稳,再强的应用也抖;先把平台焊稳。
+
+## 今天可以怎么用
+
+做一个臀或踝的稳定动作(臀桥/单腿平衡),给底盘加固。
+
 ## 关联
 - [力量重建模块](../../docs/03-strength-rebuild/README.md):[臀部](../../docs/03-strength-rebuild/glutes.md)、[核心](../../docs/03-strength-rebuild/core.md)、[踝关节稳定](../../docs/03-strength-rebuild/ankle-stability.md)
 - [跑步损伤原理](running-injury-principles.md)、[跑步姿势与身体排列](running-posture-alignment.md)

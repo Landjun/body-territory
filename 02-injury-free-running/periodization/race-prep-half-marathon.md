@@ -39,6 +39,18 @@
 - 长距离一次猛增——受伤风险高。
 - 不练补给和配速——后半程"撞软墙"。
 
+## 对安全跑者的意义
+
+半马靠"高阈值+厚耐力",且从这里起,补给与配速控制开始变重要。
+
+## 和网络安全的类比
+
+像**中长时高负载+资源调度策略**:容量要够,还要会分配资源(补给、配速),否则后段耗尽。
+
+## 今天可以怎么用
+
+把长距离拉练做成渐进的,别一次猛增量级。
+
 ## 关联
 - [长距离跑](../workouts/long-run.md)、[节奏跑](../workouts/tempo-run.md)、[轻松跑](../workouts/easy-run.md)
 - [负荷管理](../concepts/load-management-10-percent.md)、[全马备战](race-prep-full-marathon.md)、[周期化原理](training-periodization.md)

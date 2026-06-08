@@ -40,6 +40,18 @@
 - 减量不足或过度——带疲劳上场或掉状态。
 - 恢复期/基础不足就冲全马——高风险,应远期规划。
 
+## 对安全跑者的意义
+
+全马核心是脂肪供能+糖原管理以防撞墙,工程量最大,绝不适合恢复期贸然冲。
+
+## 和网络安全的类比
+
+像**超长任务的资源耗尽风险**:要练"省油"(脂肪供能)+中途补给+匀速,任一环失误都被距离放大。
+
+## 今天可以怎么用
+
+把全马当远期愿景,当前先建无伤的有氧基础与训练连续性。
+
 ## 关联
 - [长距离跑](../workouts/long-run.md)、[周期化原理](training-periodization.md)、[负荷管理](../concepts/load-management-10-percent.md)
 - [有氧/无氧能量系统](../../01-body-systems/aerobic-anaerobic-energy-systems.md)、[半马备战](race-prep-half-marathon.md)

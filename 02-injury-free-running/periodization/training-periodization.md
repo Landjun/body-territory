@@ -43,6 +43,18 @@
 - 只加不减、没有减量周——超量恢复无法兑现。
 - 把"赛前减量"当偷懒——减量正是让状态浮上来的关键。
 
+## 对安全跑者的意义
+
+周期化把"刺激+恢复"组织成几周到几个月的节奏,让进步可持续、风险可控。
+
+## 和网络安全的类比
+
+像**迭代节奏与发布周期**:加几周、减一周,给适应留窗口;一路猛冲不留 buffer 必然崩。
+
+## 今天可以怎么用
+
+判断本周期当前该加、该减,还是该恢复,据此定本周强度。
+
 ## 关联
 - [恢复与适应](../../01-body-systems/recovery-and-adaptation.md)、[负荷管理与 10% 原则](../concepts/load-management-10-percent.md)
 - 备战:[5K](race-prep-5k.md)、[10K](race-prep-10k.md)、[半马](race-prep-half-marathon.md)、[全马](race-prep-full-marathon.md)

@@ -39,6 +39,18 @@
 - 一次猛增距离——应渐进。
 - 以为长距离只练"远"——它同时改造代谢、组织和心理。
 
+## 对安全跑者的意义
+
+长距离最考验恢复和资源管理(脂肪供能、糖原),配速太快会把低成本课变成高风险课。
+
+## 和网络安全的类比
+
+像**长时间稳定性测试**:看的是持久与资源调度,不是峰值速度;飙速反而暴露隐患。
+
+## 今天可以怎么用
+
+长距离保持轻松-中等强度,把它当"低成本积累",次日可控为准。
+
 ## 关联
 - [有氧/无氧能量系统](../../01-body-systems/aerobic-anaerobic-energy-systems.md)、[负荷管理与 10% 原则](../concepts/load-management-10-percent.md)
 - 备战:[半马](../periodization/race-prep-half-marathon.md)、[全马](../periodization/race-prep-full-marathon.md)

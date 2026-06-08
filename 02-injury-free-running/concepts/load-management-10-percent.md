@@ -46,6 +46,18 @@
 - 把 10% 当铁律死守——它是方向性提醒,需个体化。
 - 状态差还硬按计划加——背景状态也是负荷的一部分。
 
+## 对安全跑者的意义
+
+负荷=量+强度+频率+条件+背景状态的总和;渐进、不骤增,是无伤的第一约束。
+
+## 和网络安全的类比
+
+像**灰度发布/变更管理**:小步渐进、别让"急性"远超"慢性",否则系统(身体)违约。
+
+## 今天可以怎么用
+
+给本周加量设一个"别骤增"的上限,并写下来。
+
 ## 关联
 - [跑步损伤原理](running-injury-principles.md)、[恢复与适应](../../01-body-systems/recovery-and-adaptation.md)
 - 应用:[降级规则](../../docs/04-injury-review/downgrade-rules.md)、[次日反馈](../../docs/02-running-safety/next-day-feedback.md)、[周期化原理](../periodization/training-periodization.md)
