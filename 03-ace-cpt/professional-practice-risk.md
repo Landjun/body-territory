@@ -45,6 +45,18 @@
 - 省略知情同意和记录——出事无据、责任不清。
 - 突发时逞能"自己处理"——应启动应急并转介。
 
+## 对安全跑者的意义
+
+教练做训练不做诊断、超范围转介——我整套系统的免责与红旗信号都贯穿这条边界。
+
+## 和网络安全的类比
+
+像**职责边界与上报机制**:越权即止,出事先止损再上报,不自己越界处理。
+
+## 今天可以怎么用
+
+把红旗信号当不可逾越的硬线:出现即停,必要时转介专业人士。
+
 ## 关联
 - [客户评估与目标设定](client-assessment-goal-setting.md)、[营养基础](nutrition-basics.md)、[行为改变与沟通](behavior-change-communication.md)
 - [风险筛查意识(docs)](../docs/06-ace-cpt/risk-awareness.md)、[红旗信号](../docs/02-running-safety/red-flags.md)

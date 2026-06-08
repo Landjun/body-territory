@@ -42,6 +42,18 @@
 - 新手一上来就高强度间歇——应先打基础。
 - 只加强度不加基础量——上限撑不住、易过载。
 
+## 对安全跑者的意义
+
+用心率/谈话测试定强度、新手先量后强度——正是我 A-E 等级与轻松跑的依据。
+
+## 和网络安全的类比
+
+像**按可观测指标限流**:用谈话测试这种零成本指标把关强度,而不是凭感觉冲。
+
+## 今天可以怎么用
+
+跑中用谈话测试确认自己确实在低强度区。
+
 ## 关联
 - [心血管系统](../01-body-systems/cardiovascular-system.md)、[呼吸与氧气运输](../01-body-systems/respiratory-oxygen-delivery.md)
 - [轻松跑原则](../docs/02-running-safety/easy-run-principles.md)、[A-E 训练等级](../docs/02-running-safety/training-level-a-e.md)

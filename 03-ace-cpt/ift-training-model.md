@@ -40,6 +40,18 @@ IFT(Integrated Fitness Training,综合体适能训练模型)是 ACE 给教练的
 - 急着加负荷、跳过动作质量——埋下代偿和受伤。
 - 把模型当死板流程——它是有顺序的框架,仍需按反馈灵活调。
 
+## 对安全跑者的意义
+
+先打磨功能/动作/稳定,再上负荷/强度——这正是我的力量重建和恢复期思路。
+
+## 和网络安全的类比
+
+像**分层上线 / 灰度**:先把基础层验证稳了,再叠加上层;跳级硬上,基础一塌全崩。
+
+## 今天可以怎么用
+
+给自己定位"我现在该在哪一阶",别跳级加负荷。
+
 ## 关联
 - [客户评估与目标设定](client-assessment-goal-setting.md)、[动作与体态训练](movement-and-posture-training.md)、[抗阻训练设计](resistance-training-design.md)
 - [力量重建模块](../docs/03-strength-rebuild/README.md)、[训练计划设计](../docs/06-ace-cpt/program-design.md)

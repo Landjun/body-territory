@@ -46,6 +46,18 @@
 - 只靠加重量进步——渐进可有多种方式。
 - 追负荷牺牲动作质量——埋下代偿和伤病。
 
+## 对安全跑者的意义
+
+按目标配组次负荷、靠渐进超负荷进步、动作质量优先——力量重建的设计原则。
+
+## 和网络安全的类比
+
+像**渐进式扩容**:每次只加一点点,留观察窗口;一次把负载顶满,容易直接打挂。
+
+## 今天可以怎么用
+
+给一个力量动作设一个"只加一点"的渐进点(次数/组数/控制)。
+
 ## 关联
 - [训练适应](../docs/06-ace-cpt/training-adaptation.md)、[动作与体态训练](movement-and-posture-training.md)、[IFT 综合训练模型](ift-training-model.md)
 - [运动单位募集](../01-body-systems/motor-units-recruitment.md)、[力量重建模块](../docs/03-strength-rebuild/README.md)

@@ -39,6 +39,18 @@
 - 只盯单块肌肉、忽略动作模式——不贴近真实功能。
 - 把体态评估当"挑毛病"——它是为了对症调整,不是贴标签。
 
+## 对安全跑者的意义
+
+从"动得对"开始、识别体态代偿,别在错误模式上加负荷——动作质量优先。
+
+## 和网络安全的类比
+
+像**先修复配置漂移,再加流量**:带着错误配置扩容,只会把问题成倍放大。
+
+## 今天可以怎么用
+
+录像自查一个动作的对线(如单腿下蹲膝是否内扣)。
+
 ## 关联
 - [IFT 综合训练模型](ift-training-model.md)、[抗阻训练设计](resistance-training-design.md)
 - [核心](../docs/03-strength-rebuild/core.md)、[膝关节控制](../docs/03-strength-rebuild/knee-control.md)、[动作库](../docs/03-strength-rebuild/movement-library.md)
