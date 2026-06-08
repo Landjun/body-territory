@@ -29,11 +29,13 @@
 
 ## 看一篇完整样板
 
-不确定"填好的费曼笔记长什么样"?看这篇已填好的样板:
+不确定"填好的费曼笔记长什么样"?看这三篇已填好的样板(均标注"示例,不代表真实训练记录",放在 `examples/` 不计入进度):
 
-📄 [乳酸阈 · 费曼样板笔记](../../examples/feynman-note-lactate-threshold.md)
+- 📄 [乳酸阈](../../examples/feynman-note-lactate-threshold.md) — 一个运动科学概念怎么讲清
+- 📄 [疼痛降级](../../examples/feynman-note-pain-downgrade.md) — 一个训练决策怎么讲清
+- 📄 [力量即基础设施](../../examples/feynman-note-strength-as-infrastructure.md) — 一个身份级理念怎么讲清
 
-它演示了从一句话解释 → 三点展开 → 训练例子 → 卡点暴露 → 3/10 分钟讲稿的完整流程。
+每篇都演示了从一句话解释 → 三点展开 → 训练例子 → 卡点暴露 → 3/10 分钟讲稿的完整流程。
 
 ## 本模块文件
 
