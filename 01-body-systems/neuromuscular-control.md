@@ -33,6 +33,18 @@
 - 忽视本体感觉训练——它是防崴脚、稳落地的核心,见[踝关节稳定](../docs/03-strength-rebuild/ankle-stability.md)。
 - 以为动作自动化后就不会退步——不练会退,见[恢复与适应](recovery-and-adaptation.md)的可逆性。
 
+## 对安全跑者的意义
+
+懂神经适应和本体感觉,才知道为什么先练动作质量和平衡,而不是先加负荷。
+
+## 和网络安全的类比
+
+像**权限调度与指令执行**:调度对了,同样的硬件(肌肉)输出更高效、更安全;调度乱,再强的资源也出错。
+
+## 今天可以怎么用
+
+做 30 秒睁眼单腿平衡,练本体感觉这套"传感器"。
+
 ## 关联
 - [肌肉收缩机制](muscle-contraction-mechanics.md)、[运动单位募集](motor-units-recruitment.md)
 - 训练:[踝关节稳定](../docs/03-strength-rebuild/ankle-stability.md)、[膝关节控制](../docs/03-strength-rebuild/knee-control.md)

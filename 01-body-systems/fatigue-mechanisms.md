@@ -36,6 +36,18 @@
 - 把乳酸当唯一元凶——它更是标志物,还能当燃料。
 - 用"硬扛过疲劳"证明意志——在疼痛/异常疲劳时硬扛=忽略保护信号,见[疼痛分级](../docs/02-running-safety/pain-scale.md)。
 
+## 对安全跑者的意义
+
+懂中枢疲劳是保护机制,才知道在疼痛/异常疲劳时该听这个"刹车"。
+
+## 和网络安全的类比
+
+像**系统过载保护**:行车电脑在烧缸前主动限速,告警不是来添堵的,是来救你的。
+
+## 今天可以怎么用
+
+后程出现明显异常疲劳时,主动降速,而不是"再顶一下证明意志"。
+
 ## 关联
 - [有氧/无氧能量系统](aerobic-anaerobic-energy-systems.md)、[ATP 能量货币](atp-energy-currency.md)、[恢复与适应](recovery-and-adaptation.md)
 - 应用:[次日反馈](../docs/02-running-safety/next-day-feedback.md)
